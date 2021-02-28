@@ -1,0 +1,145 @@
+@import url(nullstyle.css);
+
+.page {
+    background-color: #464f54;
+}
+
+.container {
+    width:1060px;
+    margin:0 auto;
+}
+
+.title {
+    height: 187px;
+    padding: 50px 60px;
+    background-color: #181818;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    position: relative;
+    top: 111px;
+    left: 29%;
+    z-index:2;
+}
+
+.title__title {
+    color: #767676;
+    font-family: 'Proxima Nova Regular';
+    font-size: 15px;
+    letter-spacing: 4.8px;
+}
+
+.title__text {
+    color: #fefefe;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+}
+
+.icons {
+    width:1007px;
+    position: relative;
+    left: 34%;
+    top: 111px;
+    z-index:1;
+    background-color: #fbc02d;
+}
+
+.icons__item {
+    width: 20px;
+    height: 20px;
+    margin:22px 20px;
+}
+.icons__item:first-child {
+    margin:22px 20px 22px 42px;
+}
+.icons__item:nth-child(4){
+    opacity:0.5;
+}
+.icons__item img:hover{
+    filter: hue-rotate(90deg);
+}
+
+.wrap {
+    background-color: #ffffff;
+}
+.text{
+    width:810px;
+    margin:0 auto;
+    padding: 100px 0;
+
+}
+.text__author {
+    color: #b4b4b4;
+    font-family: 'Proxima Nova Regular';
+    font-size: 20px;
+    letter-spacing: 6.72px;
+}
+
+.text__title {
+    color: #2a2a2a;
+    font-family: 'FuturaPT-Heavy';
+    font-size: 78px;
+    line-height: 73.52px;
+    letter-spacing: 5.28px;
+}
+.text__text--italic{
+    font-family: 'Georgia-Italic';
+    font-style: italic;
+}
+.text__subtitle {
+    color: #8f8f8f;
+    font-family: 'Georgia';
+    font-size: 30px;
+    font-style: italic;
+    line-height: 62.44px;
+}
+
+.text__text {
+    margin:20px 0;
+    font-family: 'Georgia';
+    color: #000000;
+    font-size: 27px;
+    line-height: 40.38px;
+}
+
+
+
+@font-face {
+    font-family: 'font5dfc35f20430696b7213dad364c9efba';
+        
+        src:    url('https://nomail.com.ua/files/eot/5dfc35f20430696b7213dad364c9efba.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/5dfc35f20430696b7213dad364c9efba.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/5dfc35f20430696b7213dad364c9efba.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'FuturaPT-Heavy';  src: local('FuturaPT-Heavy'), url('https://nomail.com.ua/files/woff/5dfc35f20430696b7213dad364c9efba.woff') format('woff'); }
+
+@font-face {
+    font-family: 'fontbc4233e2e797e27e74fc7148b45c7f5a';
+        src:    url('https://nomail.com.ua/files/eot/bc4233e2e797e27e74fc7148b45c7f5a.eot?#iefix') format('embedded-opentype'),
+                    url('https://nomail.com.ua/files/woff/bc4233e2e797e27e74fc7148b45c7f5a.woff') format('woff'),
+                    url('https://nomail.com.ua/files/woff2/bc4233e2e797e27e74fc7148b45c7f5a.woff2') format('woff2');
+}
+        
+@font-face { font-family: 'Georgia';  src: local('Georgia'), url('https://nomail.com.ua/files/woff/bc4233e2e797e27e74fc7148b45c7f5a.woff') format('woff'); }
+
+@font-face {
+    font-family: 'font35ac14f8a045f0a3f8f171d6b32dd09f';
+        
+        src:    url('https://nomail.com.ua/files/eot/35ac14f8a045f0a3f8f171d6b32dd09f.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/35ac14f8a045f0a3f8f171d6b32dd09f.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/35ac14f8a045f0a3f8f171d6b32dd09f.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'Georgia-Italic';  src: local('Georgia-Italic'), url('https://nomail.com.ua/files/woff/35ac14f8a045f0a3f8f171d6b32dd09f.woff') format('woff'); }
+
+    @font-face {
+        font-family: 'Proxima Nova Regular';
+        src: url('ProximaNova-Regular.eot');
+        src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Regular.woff') format('woff'),
+        url('fonts/ProximaNova-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+    
