@@ -44,20 +44,22 @@
     background-color: #fbc02d;
 }
 
-.icons__item {
+.material-icons {
+    color:white;
+    opacity: 0.5;
     width: 20px;
     height: 20px;
     margin:22px 20px;
 }
-.icons__item:first-child {
+.material-icons:first-child {
     margin:22px 20px 22px 42px;
 }
-.icons__item:nth-child(4){
-    opacity:0.5;
+
+.material-icons:hover {
+    cursor: pointer;
+    opacity: 1; 
 }
-.icons__item img:hover{
-    filter: hue-rotate(90deg);
-}
+
 
 .wrap {
     background-color: #ffffff;
@@ -141,5 +143,16 @@
         url('fonts/ProximaNova-Regular.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
-        }
+    }
     
+    @font-face {
+        font-family: 'Material Icons';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+        src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+        }
