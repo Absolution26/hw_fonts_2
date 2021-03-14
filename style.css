@@ -1,4 +1,4 @@
-@import url(nullstyle.css);
+@import url(nullstyle.css);/*Обнуляющий стиль*/
 
 .page {
     background-color: #464f54;
@@ -51,6 +51,7 @@
     height: 20px;
     margin:22px 20px;
 }
+
 .material-icons:first-child {
     margin:22px 20px 22px 42px;
 }
@@ -60,7 +61,6 @@
     opacity: 1; 
 }
 
-
 .wrap {
     background-color: #ffffff;
 }
@@ -68,7 +68,6 @@
     width:810px;
     margin:0 auto;
     padding: 100px 0;
-
 }
 .text__author {
     color: #b4b4b4;
